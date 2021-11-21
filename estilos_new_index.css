@@ -135,11 +135,12 @@ a:visited
     padding: 8px;
     color: #fff;
     border-radius: 50%;
+    border: none;
     background-color: #66462f;
 }
 
 .btn_asistencia button:hover{
-    background-color: #66462f;/*#38393B;*/
+    background-color: #98694f;/*#38393B;*/
 }
 
 .cont-vert{
@@ -179,10 +180,14 @@ a:visited
 
 .bot-menu-item{
     border-top: 1px solid black;
-    /*border-bottom: 1px solid black;*/
     width: 100%;
     text-align: center;
+    transition: 0.7s ease;
     line-height: 40px;
+}
+
+.bot-menu-item:hover{
+    background-color: #e1c699;
 }
 
 
