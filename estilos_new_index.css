@@ -34,7 +34,7 @@ a{
 a:visited 
 {
     text-decoration: none; 
-    decoration: none; 
+    color: inherit;
 }
 
 .navbar{
