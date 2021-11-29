@@ -1,231 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Playfair Display', serif;/*'Playfair Display'*/
+.ubicacion{
+  display: flex;
+  justify-content:space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 20px;
 }
 
-ul {
-    list-style-type: none;
+.ubicacion h2{
+  display: block;
 }
 
-a, a:visited, a:hover, a:active {
-    color: inherit;
-    text-decoration: none;
-  }
-
-.invitacion{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-gap: 30px;
-    height: 400px;
+iframe{
+  min-height: 350px;
 }
 
-.invitacion__imagen{
-    display: flex;
-    background-color: inherit;
-}
-
-.invitacion__imagen img{
-    object-fit: contain;
-    max-width: 100%;
-}
-
-.contenido__body img{
-    object-fit: contain;
-    max-width: 100%;
-    background-color: antiquewhite;
-}
-
-.invitacion__texto{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
-}
-
-.invitacion__blanco{
-    min-width: 200px;
-}
-
-.menu ul{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.menu__ul_a{
-    font-family: 'Estonia', cursive;
-    font-size: 30px;
-}
-
-body{
-    padding: 20px;
-    display:grid;
-    grid-template-rows: repeat(auto-fill, 1fr);
-    gap: 60px;
-}
-
-.contenido{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-}
-
-.contenido__margen{
-    min-width: 50px;
-}
-
-.contenido__body{
-    display: flex;
-    flex-direction: column;
-}
-
-.contenido__body div{
-    padding: 10px 0px;
-}
-
-.divisor_seccion{
-    border-top: 1px solid #3E5043;
-}
-
-#ubicacion {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
-
-.agenda ul{
-    list-style-type:disc ;
-    list-style-position: inside;
-}
-
-.agenda{
-    border-left: 2px solid #3E5043;
-    display: block;
-}
-
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 500px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-  /* end slideshow container */
-
-  .ubicacion-titulo{
-    display: flex;
-  }
-
-  .ubicacion-titulo img{
-    height: 50px;
-  }
-
-  .vestimenta-titulo{
-    display: flex;
-  }
-
-  .vestimenta-titulo img{
-    height: 50px;
-  }
-
-  #vestimenta {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
-
-.avatar{
+.texto-ubicacion{
   display: flex;
   flex-direction: column;
+  justify-content:center;
+  align-content:space-between;
+  text-align: center;
+}
+
+.titulo-seccion{
+  text-align: center;
+}
+
+.container-bus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  max-width: 200px;
+  column-gap: 20px;
+}
+
+.container-bus img{
+  object-fit:contain;
+  width: 100%;
+}
+
+.info-combi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content:center;
+  min-width: 60%;
+}
+
+.info-combi__texto{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  /*max-width: 400px;*/
 }
