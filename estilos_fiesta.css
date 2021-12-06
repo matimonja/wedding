@@ -47,9 +47,10 @@ iframe{
 }
 
 .container-bus img{
-  object-fit: contain;
+  object-fit:contain;
   width: 100%;
 }
+
 
 .info-combi{
   display: flex;
