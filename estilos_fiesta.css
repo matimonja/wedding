@@ -41,14 +41,9 @@ iframe{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 200px;
-  max-width: 200px;
+  height: 300px;
+  /*max-width: 200px;*/
   column-gap: 20px;
-}
-
-.container-bus img{
-  object-fit:contain;
-  width: 100%;
 }
 
 .container-Pinterest *{
