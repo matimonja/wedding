@@ -46,8 +46,8 @@ iframe{
   column-gap: 20px;
 }
 
-.container-Pinterest *{
-  object-fit:contain;
+.container-bus img{
+  object-fit: contain;
   width: 100%;
 }
 
