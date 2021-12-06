@@ -41,8 +41,8 @@ iframe{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  /*max-width: 200px;*/
+  height: 400px;
+  min-width: 300px;
   column-gap: 20px;
 }
 
