@@ -8,6 +8,16 @@
   padding: 20px;
 }
 
+.vestimenta{
+  display: flex;
+  justify-content:space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 20px;
+}
+
 .ubicacion h2{
   display: block;
 }
@@ -22,6 +32,7 @@ iframe{
   justify-content:center;
   align-content:space-between;
   text-align: center;
+  row-gap: 20px;
 }
 
 .titulo-seccion{
@@ -37,6 +48,25 @@ iframe{
   column-gap: 20px;
 }
 
+.container-bus img{
+  object-fit:contain;
+  width: 100%;
+}
+
+.container-remera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
+  max-width: 200px;
+  column-gap: 20px;
+}
+
+.container-remera img{
+  object-fit:contain;
+  width: 100%;
+}
+
 .container-Pinterest{
   display: flex;
   justify-content: center;
@@ -46,11 +76,6 @@ iframe{
   column-gap: 20px;
 }
 
-.container-bus img{
-  object-fit:contain;
-  width: 100%;
-}
-
 
 .info-combi{
   display: flex;
@@ -58,6 +83,12 @@ iframe{
   justify-content:center;
   align-content:center;
   min-width: 60%;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.info-combi h4{
+  text-align: center;
 }
 
 .info-combi__texto{
@@ -65,5 +96,18 @@ iframe{
   flex-direction: column;
   align-items: flex-start;
   text-align: start;
-  /*max-width: 400px;*/
+  /*max-width: 600px;*/
+  row-gap: 20px;
+}
+
+.vestimenta_ul li::before{
+  font-family: "Material Icons";
+  content: "checkroom";
+  padding-right: 5px;
+}
+
+.ubicacion_ul li::before{
+  font-family: "Material Icons";
+  content: "airport_shuttle";
+  padding-right: 5px;
 }
