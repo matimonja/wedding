@@ -1,5 +1,5 @@
 function timerCasamiento() {
-    let fechaCasamiento = new Date('Feb 5, 2022 11:00:00').getTime();
+    let fechaCasamiento = new Date('Feb 5, 2022 10:00:00').getTime();
     let now = new Date().getTime();
     let gap = fechaCasamiento - now;
   
