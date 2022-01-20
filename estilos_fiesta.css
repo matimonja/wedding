@@ -111,3 +111,11 @@ iframe{
   content: "airport_shuttle";
   padding-right: 5px;
 }
+
+.agenda_ul li::before{
+  font-family: "Material Icons";
+  content: "celebration";
+  padding-right: 5px;
+}
+
+
